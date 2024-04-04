@@ -3,15 +3,15 @@
 This is a starter template for building applications using React for the frontend, Node.js with Express for the backend, and MongoDB for the database.
 
 ## Setup Instructions
-
+ 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/React-Node-Express-Mongo.git
+    git clone https://github.com/AppAnySite/BBlocks.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd React-Node-Express-Mongo
+    cd BBlocks/React-Node-Express-Mongo
     ```
 
 3. Install dependencies for the client:
