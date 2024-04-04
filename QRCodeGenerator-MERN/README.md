@@ -4,8 +4,8 @@ This is a starter template for building applications using React for the fronten
 
 ## Demo Images
 
-<img src="client.png" alt="Image 1" width="400" height="300" style="display: inline-block; margin-right: 20px;">
-<img src="phonedefaultscanner.png" alt="Image 2" width="400" height="300" style="display: inline-block;">
+<img src="client.png" alt="Image 1" width="800" height="500" style="display: inline-block; margin-right: 20px;">
+<img src="phonedefaultscanner.png" alt="Image 2" width="400" height="800" style="display: inline-block;">
 
 
 ## Setup Instructions
