@@ -6,9 +6,12 @@ This is a starter template for a QRCode Scanner Application in React Native.
 
 ### Android
 
-![QRCodeGenerator-MERN](1.png)
-![Scanner1](2.jpeg)
-![Scanner2](3.jpeg)
+<img src="1.png" width="50%" alt="QRCodeGenerator-MERN">
+
+<div style="display: flex;">
+    <img src="2.jpeg" width="20%" alt="Scanner1">
+    <img src="3.jpeg" width="20%" alt="Scanner2">
+</div>
 
 ## Setup Instructions
 
