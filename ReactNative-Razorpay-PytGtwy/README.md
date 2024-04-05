@@ -2,6 +2,28 @@
 
 This is a starter template for building application using ReactNative for integration of Payment Gateway using Razorpay
 
+## Razorpay Setup
+
+1. **Visit Razorpay Website**: Go to [Razorpay.com](https://www.razorpay.com/).
+
+2. **Follow Video Instructions**: Watch the provided video guides (1.mp4, 2.mp4, 3.mp4) in repository for step-by-step instructions.
+
+   <div style="display:flex;">
+       <video width="400" height="300" controls>
+           <source src="1.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+       </video>
+       <video width="400" height="300" controls>
+           <source src="2.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+       </video>
+       <video width="400" height="300" controls>
+           <source src="3.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+       </video>
+   </div>
+
+
 ## Demo
 
 ### Android
