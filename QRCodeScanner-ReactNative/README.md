@@ -2,6 +2,14 @@
 
 This is a starter template for a QRCode Scanner Application in React Native.
 
+## Tools and Versions
+
+- `npx create-react-app`: 5.0.1
+- `node`: v21.7.1
+- `npm`: 10.5.0
+- `npx`: 10.5.0
+- `npx react-native -v`: 13.6.4
+
 ## Demo
 
 ### Android
