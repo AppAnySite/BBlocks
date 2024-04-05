@@ -2,6 +2,14 @@
 
 This is a starter template for building applications using React for the frontend, Node.js with Express for the backend, and MySQL for the database.
 
+## Tools and Versions
+
+- `npx create-react-app`: 5.0.1
+- `node`: v21.7.1
+- `npm`: 10.5.0
+- `npx`: 10.5.0
+
+
 ## Setup Instructions
 
 1. Clone the repository:
