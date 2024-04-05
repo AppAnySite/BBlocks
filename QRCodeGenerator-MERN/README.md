@@ -2,6 +2,13 @@
 
 This is a starter template for building applications using React for the frontend, Node.js with Express for the backend, and MongoDB for the database.
 
+## Tools and Versions
+
+- `npx create-react-app`: 5.0.1
+- `node`: v21.7.1
+- `npm`: 10.5.0
+- `npx`: 10.5.0
+  
 ## Demo Images
 
 <img src="client.png" alt="Image 1" width="800" height="500" style="display: inline-block; margin-right: 20px;">
