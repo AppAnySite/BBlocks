@@ -8,7 +8,19 @@ This is a starter template for React Firebase Authentication using Email and Goo
 - `node`: v20.13.0
 - `npm`: 10.5.2
 - `npx`: 10.5.2
-  
+
+## Firebase Setup
+
+1. **Follow Video Instructions**: Watch the provided video guides (setup.mp4) in repository for step-by-step instructions.
+
+   <div style="display:flex;">
+       <video width="400" height="300" controls>
+           <source src="setup.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+       </video>
+   </div>
+
+
 ## Demo Images
 
 <img src="1.png" alt="Image 1" width="800" height="500" style="display: inline-block; margin-right: 20px;">
