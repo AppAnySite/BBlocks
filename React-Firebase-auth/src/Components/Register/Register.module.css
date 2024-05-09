@@ -1,0 +1,53 @@
+.register {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.10), 0 8px 16px rgba(0, 0, 0, 0.10);
+    border-radius: 8px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.register > form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register > form input, .register > form button {
+    border-radius: 20px;
+    width: 90%; /* Consistent width for all input elements and button */
+    padding: 12px;
+    margin: 10px 0; /* Consistent margin for visual appeal */
+}
+
+.register > form input {
+    border: 2px solid lightgrey;
+    outline: none;
+    color: #1d2129;
+    font-size: 16px;
+}
+
+.register > form button {
+    border: none;
+    background-color: #4CAF50; /* Green color to differentiate from login */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register > form button:hover {
+    background-color: #45a049; /* Darker shade of green on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 500px) {
+    .register {
+        width: 90%;
+    }
+}

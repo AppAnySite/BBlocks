@@ -1,0 +1,63 @@
+.login {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.64), 0 8px 16px rgba(0, 0, 0, 0.34);
+    border-radius: 8px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.login > form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login > form input {
+    border-radius: 20px;
+    border: 2px solid lightgrey;
+    outline: none;
+    color: #1d2129;
+    margin: 10px 0; /* Adjust spacing */
+    width: 90%; /* Full width with padding consideration */
+    padding: 12px;
+    font-size: 16px;
+}
+
+.login > form button {
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4267B2; /* Facebook-like blue for example */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.login > form button:hover {
+    background-color: #365899; /* Slightly darker blue on hover */
+}
+
+.link {
+    display: block; /* Makes the link a block element */
+    margin-bottom: 20px; /* Adds space below the link */
+}
+
+.google-button {
+    margin-top: 20px; /* Adds space above the Google Button */
+}
+
+/* Additional responsive adjustments for smaller screens */
+@media (max-width: 500px) {
+    .login {
+        width: 90%;
+    }
+}
