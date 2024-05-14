@@ -1,45 +1,53 @@
-# React application with Express server
+# MERN Twilio SMS Starter Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). Then an Express server was added in the `server` directory. The server is proxied via the `proxy` key in `package.json`.
+This is a starter template for sending Message using Twilio and MERN stack.
 
-## Using this project
+## Tools and Versions
 
-1. Clone the project, change into the directory and install the dependencies.
+- `npx create-react-app`: 5.0.1
+- `node`: v20.13.0
+- `npm`: 10.5.2
+- `npx`: 10.5.2
 
-   ```bash
-   git clone https://github.com/philnash/react-express-starter.git
-   cd react-express-starter
-   npm install
-   ```
+## Firebase Setup
 
-2. Create a `.env` file for environment variables in your server.
+1. **Follow Video Instructions**: Watch the provided video guides (setupTwilio.mp4) in repository for step-by-step instructions.
 
-   ```bash
-   touch .env
-   ```
+   <div style="display:flex;">
+       <video width="400" height="300" controls>
+           <source src="setupTwilio.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+       </video>
+   </div>
+   
+## Demo Images
 
-3. Start the server
+<img src="1.png" alt="Image 1" width="800" height="500" style="display: inline-block; margin-right: 20px;">
+<img src="2.png" alt="Image 1" width="800" height="500" style="display: inline-block; margin-right: 20px;">
+<img src="3.png" alt="Image 1" width="800" height="500" style="display: inline-block; margin-right: 20px;">
 
-   You can start the server on its own with the command:
 
-   ```bash
-   npm run server
-   ```
+## Setup Instructions
+ 
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/AppAnySite/BBlocks.git
+    ```
 
-   Run the React application on its own with the command:
+2. Navigate to the project directory:
+    ```bash
+    cd BBlocks/MERN-Twilio-App
+    ```
 
-   ```bash
-   npm start
-   ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-   Run both applications together with the command:
 
-   ```bash
-   npm run dev
-   ```
+## Running the Application
 
-   The React application will run on port 3000 and the server port 3001.
-
-## React Twilio starter
-
-The [twilio branch](https://github.com/philnash/react-express-starter/tree/twilio) is a similar setup but also provides endpoints with basic [Access Tokens](https://www.twilio.com/docs/iam/access-tokens) for [Twilio Programmable Chat](https://www.twilio.com/docs/chat) and [Twilio Programmable Video](https://www.twilio.com/docs/video). You can use the project as a base for building React chat or video applications.
+- To start the Application:
+    ```bash
+    npm run dev
+    ```
