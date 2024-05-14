@@ -3,8 +3,9 @@ import basestyle from "../Base.module.css";
 import loginstyle from "./Login.module.css";
 import { useNavigate, NavLink } from "react-router-dom";
 import { auth } from "../../firebase-config";
-import { signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { signInWithEmailAndPassword, GoogleAuthProvider, GithubAuthProvider, signInWithPopup } from "firebase/auth";
 import GoogleButton from 'react-google-button';
+import { GithubLoginButton } from "react-social-login-buttons";
 
 const Login = ({ setUserState }) => {
     const navigate = useNavigate();
@@ -66,6 +67,19 @@ const Login = ({ setUserState }) => {
         }
     };
 
+    const signInWithGitHub = async () => {
+        const provider = new GithubAuthProvider();
+        try {
+            const result = await signInWithPopup(auth, provider);
+            console.log(result.user)
+            setUserState(result.user);
+            navigate('/', { replace: true });
+        } catch (error) {
+            console.error(error);
+            setFormErrors(prev => ({ ...prev, firebase: error.message }));
+        }
+    };
+
     return (
         <div className={loginstyle.login}>
             <form onSubmit={loginHandler}>
@@ -95,6 +109,7 @@ const Login = ({ setUserState }) => {
             </form>
             <NavLink to="/signup" className={loginstyle.link}>Not yet registered? Register Now</NavLink>
             <GoogleButton className={loginstyle['google-button']} onClick={signInWithGoogle} />
+            <GithubLoginButton className={loginstyle['google-button']}  onClick={signInWithGitHub} />
         </div>
     );
 };

@@ -54,6 +54,9 @@
 .google-button {
     margin-top: 20px; /* Adds space above the Google Button */
 }
+.github-button {
+    width: 20px; /* Adds space above the Google Button */
+}
 
 /* Additional responsive adjustments for smaller screens */
 @media (max-width: 500px) {

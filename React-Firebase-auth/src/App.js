@@ -47,7 +47,7 @@ function App() {
             path="/"
             element={
               userState ? (
-                <Profile setUserState={setUserState} username={userState.email} />
+                <Profile setUserState={setUserState} username={userState.displayName} />
               ) : (
                 <Login setUserState={setUserState} />
               )
