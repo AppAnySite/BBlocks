@@ -23,8 +23,7 @@ This is a starter template for sending Message using Twilio and MERN stack.
 ## Demo Images
 
 <img src="1.png" alt="Image 1" width="800" height="500" style="display: inline-block; margin-right: 20px;">
-<img src="2.png" alt="Image 1" width="800" height="500" style="display: inline-block; margin-right: 20px;">
-<img src="3.png" alt="Image 1" width="800" height="500" style="display: inline-block; margin-right: 20px;">
+<img src="2.png" alt="Image 1" width="400" height="500" style="display: inline-block; margin-right: 20px;">
 
 
 ## Setup Instructions
