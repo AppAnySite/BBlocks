@@ -73,7 +73,7 @@ This is a starter template for building applications using React for the fronten
 
 6. Replace the placeholder `<username>`, `<password>`, and `<cluster_name>` in the `DB_CONNECTION_STRING` environment variable with your own MongoDB connection string. Open the `.env` file and update the following line:
     ```
-    DB_CONNECTION_STRING=mongodb+srv://<username>:<password>@<cluster_name>/TodoApp
+    DB_CONNECTION_STRING=mongodb+srv://<username>:<password>@<cluster_name>.en4xmvp.mongodb.net/<Database_name>?retryWrites=true&w=majority&appName=<cluster_name>
     ```
 
 ## Running the Application
