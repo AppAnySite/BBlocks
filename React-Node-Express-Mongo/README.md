@@ -88,6 +88,28 @@ This is a starter template for building applications using React for the fronten
     cd backend && npm start
     ```
 
+## Running the Application using Docker
+
+- To start the frontend (React) development server:
+    ```bash
+    cd client && docker build -t client . && docker run -it -p 3000:3000 client
+    ```
+
+- To start the backend (Node.js with Express) server:
+    ```bash
+    cd backend && docker build -t server . && docker run -it -p 5050:5050 server
+    ```
+## Running the Application using Docker
+
+- If you are facing any issues in MongoDB Connectivity:
+    ```bash
+    Make sure that you add your IP Address by following the below steps
+    ```
+
+- To start the backend (Node.js with Express) server:
+    ```bash
+    cd backend && docker build -t server . && docker run -it -p 5050:5050 server
+    ```
 ## Folder Structure
 
 - `client`: Contains the React frontend code.
