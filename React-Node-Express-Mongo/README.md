@@ -111,8 +111,6 @@ This is a starter template for building applications using React for the fronten
     ```bash
     Make sure that you add your IP Address by following the below steps
     ```
-    
-<img src="1.png" width="50%" alt="QRCodeGenerator-MERN">
 
 <div style="display: flex;">
     <img src="1.png" width="50%" alt="Dashboard">
