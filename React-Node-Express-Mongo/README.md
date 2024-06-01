@@ -99,23 +99,19 @@ This is a starter template for building applications using React for the fronten
     ```bash
     cd backend && docker build -t server . && docker run -it -p 5050:5050 server
     ```
-## Running the Application using Docker
 
-- If you are facing any issues in MongoDB Connectivity:
-    ```bash
-    Make sure that you add your IP Address by following the below steps
-    ```
-
-- To start the backend (Node.js with Express) server:
-    ```bash
-    cd backend && docker build -t server . && docker run -it -p 5050:5050 server
-    ```
 ## Folder Structure
 
 - `client`: Contains the React frontend code.
 - `backend`: Contains the Node.js backend code.
 
 ## Issues
+
+- If you are facing any issues in MongoDB Connectivity:
+    ```bash
+    Make sure that you add your IP Address by following the below steps
+    ```
+    
 <img src="1.png" width="50%" alt="QRCodeGenerator-MERN">
 
 <div style="display: flex;">
