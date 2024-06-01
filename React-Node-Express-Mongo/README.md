@@ -114,3 +114,13 @@ This is a starter template for building applications using React for the fronten
 
 - `client`: Contains the React frontend code.
 - `backend`: Contains the Node.js backend code.
+
+## Issues
+<img src="1.png" width="50%" alt="QRCodeGenerator-MERN">
+
+<div style="display: flex;">
+    <img src="1.png" width="50%" alt="Dashboard">
+    <img src="2.png" width="50%" alt="NetworkSettings">
+    <img src="3.png" width="50%" alt="IPAddressSettings">
+</div>
+
